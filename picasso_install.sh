@@ -10,5 +10,5 @@ nvm install v6.9.5
 if [ -d picasso-server ]; then
 	rm -rf picasso-server
 fi
-git clone git@code.dianpingoa.com:mobile/picasso-server.git
+git clone ssh://git@git.dianpingoa.com/mobile/picasso-server.git
 cd picasso-server && ~/.nvm/versions/node/v6.9.5/bin/npm link
