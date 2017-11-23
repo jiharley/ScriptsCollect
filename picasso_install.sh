@@ -6,6 +6,7 @@ nvm install v6.9.5
 ~/.nvm/versions/node/v6.9.5/bin/npm install -g nrm --registry=https://registry.npm.taobao.org
 ~/.nvm/versions/node/v6.9.5/bin/nrm use taobao
 ~/.nvm/versions/node/v6.9.5/bin/npm install -g typescript
+~/.nvm/versions/node/v6.9.5/bin/npm install npm@latest -g
 
 if [ -d picasso-server ]; then
 	rm -rf picasso-server
